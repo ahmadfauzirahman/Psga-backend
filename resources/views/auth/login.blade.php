@@ -83,7 +83,9 @@
                                            for="same-address"> {{ __('Remember Me') }}</label>
                                 </div>
                                 <button class="btn btn-primary btn-block" type="submit">{{ __('Login') }}</button>
-                                <p class="font-14 text-center mt-15">Having trouble logging in?</p>
+                                <p class="font-14 text-center mt-15">Have't Account?
+                                    <a href="{{ route('register') }}">Sign
+                                        Up</a></p>
                             </form>
                         </div>
                     </div>
