@@ -26,8 +26,7 @@
                              style="background-image:url({{asset('public/img/parents.jpg')}});">
                             <div class="auth-cover-info py-xl-0 pt-100 pb-50">
                                 <div class="auth-cover-content text-center w-xxl-75 w-sm-90 w-xs-100">
-                                    <h1 class="display-3 text-white mb-20">Understand and look deep into
-                                        nature.</h1>
+                                    <h1 class="display-3 text-white mb-20">LPPM UIN SUSKA (PSGA).</h1>
                                     <p class="text-white">A B C D E F G H I J K L M N O P Q R S T U V W Y X Z.</p>
                                 </div>
                             </div>
@@ -37,8 +36,7 @@
                              style="background-image:url({{asset('public/img/homepgae_child2.jpg')}});">
                             <div class="auth-cover-info py-xl-0 pt-100 pb-50">
                                 <div class="auth-cover-content text-center w-xxl-75 w-sm-90 w-xs-100">
-                                    <h1 class="display-3 text-white mb-20">Experience matters for good
-                                        applications.</h1>
+                                    <h1 class="display-3 text-white mb-20">LARAVEL & REACT JS.</h1>
                                     <p class="text-white">A B C D E F G H I J K L M N O P Q R S T U V W Y X Z.</p>
                                 </div>
                             </div>

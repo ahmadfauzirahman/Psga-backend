@@ -18,3 +18,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+//kegiatan
+Route::get('/kegiatan-home', 'KegiatanController@index')->name('kegiatan-home');
