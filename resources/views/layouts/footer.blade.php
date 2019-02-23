@@ -41,6 +41,26 @@
 <script src="{{asset('public/vendors/jquery-toggles/toggles.min.js')}}"></script>
 <script src="{{asset('public/dist/js/toggle-data.js')}}"></script>
 
+<!-- Select2 JavaScript -->
+<script src="{{asset('public/vendors/select2/dist/js/select2.full.min.js')}}"></script>
+<script src="{{asset('public/dist/js/select2-data.js')}}"></script>
+
+<!-- Bootstrap Tagsinput JavaScript -->
+<script src="{{asset('public/vendors/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js')}}"></script>
+
+<!-- Bootstrap Input spinner JavaScript -->
+<script src="{{asset('public/vendors/bootstrap-input-spinner/src/bootstrap-input-spinner.js')}}"></script>
+<script src="{{asset('public/dist/js/inputspinner-data.js')}}"></script>
+
+<!-- Pickr JavaScript -->
+<script src="{{asset('public/vendors/pickr-widget/dist/pickr.min.js')}}"></script>
+<script src="{{asset('public/dist/js/pickr-data.js')}}"></script>
+
+<!-- Daterangepicker JavaScript -->
+<script src="{{asset('public/vendors/moment/min/moment.min.js')}}"></script>
+<script src="{{asset('public/vendors/daterangepicker/daterangepicker.js')}}"></script>
+<script src="{{asset('public/dist/js/daterangepicker-data.js')}}"></script>
+
 <!-- Toastr JS -->
 <script src="{{asset('public/vendors/jquery-toast-plugin/dist/jquery.toast.min.js')}}"></script>
 
@@ -71,3 +91,6 @@
 <!-- Init JavaScript -->
 <script src="{{asset('public/dist/js/init.js')}}"></script>
 <script src="{{asset('public/dist/js/dashboard2-data.js')}}"></script>
+<script>
+    $('div.alert').not('.alert-important').delay(3000).slideUp(300);
+</script>

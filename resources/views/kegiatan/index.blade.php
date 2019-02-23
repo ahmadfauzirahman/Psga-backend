@@ -8,6 +8,7 @@
 ?>
 @extends('layouts.main')
 @section('main')
+    @include('layouts.success')
     <div class="row">
         <div class="col-xl-12">
             <section class="hk-sec-wrapper">
@@ -62,13 +63,22 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Form Modal Kegiatan</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Form Tambah Kegiatan</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <p>Woohoo, you're reading this text in a modal!</p>
+                <form action="">
+                    <div class="form-group">
+                        <label for="">Nama Acara</label>
+                        <input type="text" class="form-control rounded-input mt-15" placeholder="Nama Acara">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Nama Acara</label>
+                        <input class="form-control" type="text" name="birthday" value="10/24/1984"/>
+                    </div>
+                </form>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

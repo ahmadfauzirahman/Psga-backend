@@ -27,6 +27,15 @@
 <link href="{{asset('public/vendors/jquery-toggles/css/themes/toggles-light.css')}}" rel="stylesheet"
       type="text/css">
 
+<!-- select2 CSS -->
+<link href="{{asset('public/vendors/select2/dist/css/select2.min.css')}}" rel="stylesheet" type="text/css" />
+
+<!-- Pickr CSS -->
+<link href="{{asset('public/vendors/pickr-widget/dist/pickr.min.css')}}" rel="stylesheet" type="text/css" />
+
+<!-- Daterangepicker CSS -->
+<link href="{{asset('public/vendors/daterangepicker/daterangepicker.css')}}" rel="stylesheet" type="text/css" />
+
 <!-- Toastr CSS -->
 <link href="{{asset('public/vendors/jquery-toast-plugin/dist/jquery.toast.min.css')}}" rel="stylesheet"
       type="text/css">

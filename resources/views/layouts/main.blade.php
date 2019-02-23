@@ -6,7 +6,6 @@
  * Time: 00.40
  */
 ?>
-
         <!DOCTYPE html>
 
 <html lang="en">
